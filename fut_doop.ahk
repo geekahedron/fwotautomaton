@@ -1,0 +1,9 @@
+
+findbase["doophq"] := "|<doophq>*136$91.zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzkzzXzzzzzzzwTVzU7y0DU1ztz7k1kTU0y03k0TwzXk0S7VsS7ksy7yTlky7VVz77wQTXzDsszXslzX7z6DtzbwMzsyNzsXzX7sz00ATwTAzwFzlXsTU06DyDaTy8zsU0Tk037z7X7z4TwE0TyTlXzXlXz67wQTzzDsklXlsz3VwCDzzbwQ8V0w03s8D7zznyD01Vz03y0DXzztz7k1nzs7zkTlzzwzXy3zzzzzzzzzzzzzzXzzzzzzzzzzzzzzlzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzy"
+coords["doophqtitle_area"] := [[346,133],[476,175]]
+
+
+GetDoopStatus()
+{
+
+}

@@ -1,6 +1,6 @@
 #Include fut_findlib.ahk
 
-findbase := {}
+global findbase := {}
 findbase["futurama"] := "|<futurama>*119$59.zzzzzzzzzz1zzzzzzzzyzznzzzzzzxzzbzzzzzzvtm4t2313VnnatqRaMavUbBngzgnjnTCPbNsNbQ6yQrCninCrBwliNaNaRiNw363C3Av0zzzzzzzzzzU"
 findbase["futurama"] .= "|<futurama>*200$58.zzzzzzzzzy3zzzzzzzzvzzTzzzzzzjzxzzzzzzyzRVSkkkEsPxrRvCvAnRUrRrhzgvjqzRrSrknisPxrRvSvSvRjrRnBvhvhqz5tWrUrikTzzzzzzzzzU"
 
@@ -423,6 +423,7 @@ findbase["mission"]["crew"]["scruffy"] := "|<scruffy>20@0.93$27.081w0zzzU7zzy0zz
 findbase["mission"]["crew"]["labarbara"] := "|<labarbara>*80$34.0203lw080DDk1U0zz0C01zzzlU7zzznUTzzy23zzzxldzzs0YDzzW2Tzzw3Unzxs01jzg006zzy00rzzI0CTzyc01zzz007zzx0SzzyoS1zzv1Tzzzu0Xzzzs0zzzzU3zzzy0Dzzzs0zzy"
 findbase["mission"]["crew"]["robotgypsy"] := "|<robotgypsy>71@0.93$25.00000000000700ETU0Tzc7hzo3qbk1vHU0w3UU80k008M000C00070007k0M9yEDUzcC4zo7wDmLCU21zS00zjy0Dby07r003v001x000y008"
 findbase["mission"]["crew"]["robotsanta"] := "|<robotsanta>*94$37.k07zzzs03zzzt04y1ztsD40Dwzzm07zzzD03zzzX01zzzk00zzzsM0zzzy2VvzzzUJpzzzm4mzzzkiOzzzsAzzzzs0T7zzs0DVzzs03Uzzy000Tzz0003zzk003zzs00Dzzw4YDzzy7zzzzz3zbzzzU00zzzE00Ts"
+findbase["mission"]["crew"]["robotsanta"] .= "|<robotsanta>*94$45.s03zzzzz00Tzzzzs01zDzzss3W07zz7zwE0zzzzyS07zzzzlU0zzzzy007zzzzks1zzzzz1ERzzzzw2ijzzzzUBZzzzzsrBTzzzz1bzzzzzk0yDzzzw07kzzzzU0Q7zzzw001zzzzU003zzzy000Dzzzt00Tzzzz+E7zzzztzzzzzzzDzzzzzzs19Tzzzz003zzzzs00Dzzzz000zzU"
 findbase["mission"]["crew"]["devilishfry"] := "|<devilishfry>*123$43.w00Q00Tz00Qk03zk0Qzk0Ty0sEC0Dzls41k7zzky0C7zzk/U0zzzk6E0Dzzs1007zzw0EA1zzy08Edzzz04E8DzzUt807zzsWUE3zzywk0VzzzpN0Uzzzt40azzzy07UTzzzw003zzzw003zzzy00Dzzzz000zzzzUU0TzzzkM07zzzs1U1zzzw070Tzzy00zzzzz01zy"
 findbase["mission"]["crew"]["sircalculon"] := "|<sircalculon>*109$47.U003ivDzU00DA0Tzzzzs003zzzXi077zzz81zjDzzwVzzazzylDzzpzzb4szVbzzgFUy/jzzUX9wLTzzW63wCzzzsDDwvzzzU7zz7zzz0000Dzzy0000Dzzw7zzzzzzsEW0Dzzzk140TzzzV280zzzz1YE1zzzy007zzzzw0003zzzs0007zzzy000Dzzzy000Tzzzz000zzzzz001zw"
 findbase["mission"]["crew"]["stephenhawking"] := "|<stephenhawking>47@0.91$31.0000000700007k0007s0003w0003z0003zU001zk002zk007si003DrU00zm000Qy000A7M0035k000wy0001zU02zzk02Tq0017ny00znz00DI000041000+0U007UU0E"
@@ -456,6 +457,7 @@ findbase["mission"]["crew"]["grayfarn"] := "|<grayfarn>41@0.85$25.001U00Ds000y06
 findbase["mission"]["crew"]["billionairebot"] := "|<billionairebot>248@0.85$22.00000000Dzs1zjkntD3i6C2iM811g006A+0BUg4q2zkM9z0Ubw72TkQ9zzsbzzWRQ09W8UY8m2K001zzm"
 findbase["mission"]["crew"]["kwanzaabot"] := "|<kwanzaabot>56@0.91$25.0000000w0zzy0w000Q000C000D0007U003k001s00UzwTsTzzwDzzy7zzz3zzzVzzzkzzzwTs0STU00DU007U007k003z000zzzsTzzsE"
 findbase["mission"]["crew"]["fender"] := "|<fender>11@0.91$31.0Tz0v9zzURdszU6okDk3OM3t1h81wEqY0y0PG0T0Qd4DkSIU7wT+M7zzZA7zzmbbzztHzkDwdzU1yIzU0T+TU07ZDk03mbk00tHs00Qds00CIw007+S003ZD001mbU00tHk10Qds00CI"
+findbase["mission"]["crew"]["fender"] .= "|<fender>*76$49.000ky2T/U00TU3cZzzzs03wGzkTE03z9TsD8w1zYjzzYz0vmLzzmzkNt/zztTsDwZzzwiw7wGzzyLS3yBTzz/z0y6jzzZzU03LzzmTU01fzzt7U00pzzwU0w0OzzyE1zUBTzz83zw6jzzY1zy3Lzzm1zzVfzzt1zzspzzwUzzwOzzyEzzyBTzz8Tnz6jzzYDkzXLzzm7sTlfzzt3wDsps"
 findbase["mission"]["crew"]["waltazar"] := "|<waltazar>*116$27.CDAztltbzTDdzvtzDzPDtzvtzTzT/rzz9Bzzskbzz00zzs03zz00Dzw01zzU07zw00TzWM3zw2TzzW43zkEWzz0oDzs71zy007zy00zzk0Zzy017zk00zz2wDzs0Tzz07zzs0zzz07zw"
 findbase["mission"]["crew"]["malfunctioningeddie"] := "|<malfunctioningeddie>*119$31.301wTUu1pTkAFtzs64wDw7VS3ywkT0TsM7UDU01kDkU0QDsE20ry4201zDa00zv000Twk00TtM00zyg03zz60wDzVyE7zkU0LzsF0zzwDzzzy7zzzz3zzzzUzzzzk3zzzw0DzzzU01zzy00zzvy0zzlzzzzxzzzzk"
 findbase["mission"]["crew"]["chrishardwick"] := "|<chrishardwick>*146$27.S4DTbU03ww00A7U01Uw00A7U01Us00867k30lzns4MAN0UP3s400Z0U00843sR0U22c61010k018400/0001E000W0000E000200A0E00Ty00020000k0U"
@@ -497,7 +499,6 @@ findbase["mission"]["crew"]["hattie"] .= "|<hattie>*96$30.Lzy47Tzy07Tzz0Dzzzzzzz
 findbase["mission"]["crew"]["hattie"] .= "|<hattie>*88$30.Lzz0DTzz07Tzz0DTzzUTzzzzzzzzzzzzzzzzzkzzzs0Tzz007zz0E7zz003zy0E3zy000zz000Tz101zz7W4Ty604TK200TM202jI1v2Ts0C0TQ001T000FD000DD00063070034Rzzz0E1zzU"
 findbase["mission"]["crew"]["benfranklin"] := "|<benfranklin>*130$30.s01zzs01zzs00zzk00zzk00Tzs00Tzw20TzwT3zzx12Dzx50DzEW1zzU0nzz0b03z1103z100bz0w0bz04T7z0807z0E17z0E0bz0Xkbz0Y71z00A8z0008T0000D000E7000k3000s1U01y1k01z1k03zVU"
 findbase["mission"]["crew"]["neiltyson"] := "|<neiltyson>*97$28.8D0zxbzbzozzTzrzyDzzzszrzzXz73yDyNk8zzh73zS04DwM00zkU03z200Tw001zk007z0DkTw1zVzk827z0z0Tw0y1zl007zELUTw083zz04DzzU3zzzznzzzzzzrzzzyU83zu80jzkA1zy"
-findbase["mission"]["crew"]["larry"] := "|<larry>*118$28.7ry2AS7g1zUCzzw0Fzz007zw00Dzk00zz003zw00Dzk00Tz0oAzw81DzkUUDzW2Gzy813zsO0Tzk4/zz00bzc00Tz005zz02bzs00TzU00zy003zs10DzUAMzy00zzs0Dzy"
 findbase["mission"]["crew"]["hookerbot"] := "|<hookerbot>*81$26.DzyfHzz7wzzmXAA9Un1Fswk8CTs3Vzw0ETw047z01kzk0EDw043z01Uzk0MTxTsDzO03zry1zx007zIszzo00zx00DzE03zo00Tx00DzE0Tzw0Dzy03zzU1zzs0Dzy0LzzU7zzs"
 findbase["mission"]["crew"]["hookerbot"] .= "|<hookerbot>*89$28.A77bwk8Dzy0szzk11zw047zk0MTz010zw043zk0EDz41XzxzsDzyU0zzTt5zx0Y7zpyDzzE03zx00Dzo00zzE01zx00Dzo07zzUUzzy07zzs0DzzU0Tzy07zzs1rzzk9bzy"
 findbase["mission"]["crew"]["flexo"] := "|<flexo>*100$26.TzwjqzzfxjzlzPzszqzyDRzzW3Mzs8qDy0RUTzzk3zzk0Tzw03zz00zzk07zw01zz00Tzk07zw01zzTzjzs00zy0s7z463zk0Uzw30Dz0kDzs0UvyE0DzEyDzlzzzw01zz00Tzs"
@@ -505,17 +506,25 @@ findbase["mission"]["crew"]["flexo"] .= "|<flexo>*102$28.nzzzvzzzzjzzTyzzvTvTzlz
 findbase["mission"]["crew"]["bendersmom"] := "|<bendersmom>12@0.94$31.03n0000kU0003k0001s0000w00000000000000100007U0003k0001s0000w0000D00041s007US00Ys3k3ry0w0xzU70w0M1UM0600001U0000M0000700001k000000E"
 findbase["mission"]["crew"]["jrrr"] := "|<jrrr>38@0.94$31.000001zU000Dy0003zk001zw000Dz000zzk00zzz03zzzk7mbUM3U1001c0E00k0800I2420802104010U30E0M1U0U00M0U50GFC10AETzc7zzzy3zzzzVzzzzsDzzzwEzzzwA3zzk600003UTy01wTz00zzz00E"
 findbase["mission"]["crew"]["hgblob"] := "|<hgblob>600@0.94$28.Yk001Y0000C0007tU00Ts003zw40Tjs01yzw0Dyzk0zwbU3zzxcDzzw0zzzs3zzzEDzzw0A4sU0k70020Q00A1k01U70070S80w1w83wTz8DzzzEzzzy0s0zsDzw40zzzu3zzyUDzxs0zqz02"
-findbase["mission"]["crew"]["igner"] := "|<igner>7@0.94$28.1s0007k000TU001zU00Dz001zw00Dzs00zzk03zz00Tzy01zzw07kz00T1s00s3U03UC00y0s00w7U07sz00TzQ01zwk07zsE0Dzn00zzw03zzk0Dzz00zzw01nzk07Vy02"
 findbase["mission"]["crew"]["robot1xs"] := "|<robot1xs>548@0.94$31.0000006000004000000000ME00408000000000100000U00000000040000000001000000000080000401002U0U0EQ0014z000EzU003zk40zzw3zzzy1zzzzczzzzoTzzzsDzwTy7zw7z3zy3zVzzVzkzzkTwE"
 findbase["mission"]["crew"]["ndnd"] := "|<ndnd>7@0.94$28.1zs007zk00Ty001zu007zE00Tn000400000800000000200000000UM0k6b03Gzs0DxzM0kDzU3zzz0Dzzy0zzzw3zzzsDzzzkzzzzXzzzzDzzzwzzzzkTzzy03DzE01vC007zkA0Tw0zXzr2"
 findbase["mission"]["crew"]["headcat"] := "|<donbot>204@0.94$29.0000000000000000000000000000000001U0002000E6000kA00VUQ001Uw001Vw003XzzzzbzzzzjzzzzTzzzyzzzzllTTQ0V00060000000008000M8031ls0DzXzzzw7zzy08"
 findbase["mission"]["crew"]["donbot"] := "|<donbot>357@0.94$31.000000000000000000000000000000000000000000000000000000E0000A0002600001U0000M0000C03zzzU1zzzs0zzzw0Tzzy0Dzzw05xxk01000000000000000000M000kQ000zy02"
 findbase["mission"]["crew"]["turboneptunian"] := "|<turboneptunian>320@0.94$31.00000000000000000000000000000000000000000000000070000zk001zs003zy007zz007zzU03zzw01zzy00vzs00Q0000D0s007UM003sA001zsA00zsE00Tw000Dy0007zU003zss02"
 findbase["mission"]["crew"]["robotdevil"] := "|<robotdevil>8@0.94$30.3zz003zz007zzUE7zzUs7zzww7zzyk3zzU01zU000060000300001U0001U0000k0000k0000M0000M000E8007kA007s0003zU043zs000000000000000000000000000000000000U"
-findbase["mission"]["crew"]["admiralchu"] := "|<admiralchu>*84$30.I0C07Q0a07M0b0Dk0Xzzw03bz20E3z00EDz00EzzE0ELzU0ELzU0ETz00ETzE007zY00Tzs00zzk00zzk00zzU00zzU00zzU0VzzU0JzzU01zz001zz1E1zzDS1zz0XXzz05vzzU0zzzU"
-findbase["mission"]["crew"]["zapp"] := "|<zapp>*115$29.a00zzk037zU04zxU0Fzu01WLw0307k022T007ry00Dzs00Dzk08DzU1Dzz6GFzy88zzwDUXzs017zk02TzU04zz03kzy001zw003zs607zk0jzzU01zz1U3zy0zzzw00Dzs00zzs"
-findbase["mission"]["crew"]["bathrobezapp"] := "|<bathrobezapp>6@1.00$30.1zs001zs001zw001zw001zw00zzy00zzy00zzD00zt000k100001U0001U00U3U00kDn00zzn00zzl00zzn00zs300zsDU0zzzU0zzzU0s0S00k0000k0000k0000s0000s0000z0000zzw00U"
 findbase["mission"]["crew"]["doclobster"] := "|<doclobster>*128$29.TCtzyyzbzxtTTzvZpzzzTzzznjjzzXyDzz7kDzy40Tzw5+zys+JztkIiz/0VDwS1/zkQ2Tzks05wXk01szU03kz002Xy001bw004zs005zk00/zU00Dz000Ty000Tw000zs000zk001zk"
+findbase["mission"]["crew"]["admiralchu"] := "|<admiralchu>*84$30.I0C07Q0a07M0b0Dk0Xzzw03bz20E3z00EDz00EzzE0ELzU0ELzU0ETz00ETzE007zY00Tzs00zzk00zzk00zzU00zzU00zzU0VzzU0JzzU01zz001zz1E1zzDS1zz0XXzz05vzzU0zzzU"
+findbase["mission"]["crew"]["bathrobezapp"] := "|<bathrobezapp>6@1.00$30.1zs001zs001zw001zw001zw00zzy00zzy00zzD00zt000k100001U0001U00U3U00kDn00zzn00zzl00zzn00zs300zsDU0zzzU0zzzU0s0S00k0000k0000k0000s0000s0000z0000zzw00U"
+findbase["mission"]["crew"]["morbo"] := "|<morbo>17@0.95$43.00Dzw00001zy00000Tz00000Dzk0000Dzzy000Dzzz000Tzzz01kDzzzU3zzzzzk1zzzzzs0Tvzzzs0Dxzbzw03wztys01ysTSS00zs3zw00Dw0Ts000S058000z01k0007U3s0003s3q0000z5vU000S8zk000Llzs0003zUk0000zU00000T000000PU00000/zs00001jw00001bk000004U000E"
+findbase["mission"]["crew"]["florp"] := "|<florp>10@0.89$34.0Dzw000Tzs000zzU003GsE00M70U0Xk6004y0k00Lw1kU1TUSY05zFwE0Lzzv01Tzzq0Bzxzs0zzqFk3zzzzUDzzzy0jzzzw2zDzzkDyTzw0zz7w03zzzw0Dzzzk0zzzy03zzzk0Dzzy01zz3k0Dzw000yzE002"
+findbase["mission"]["crew"]["linda"] := "|<linda>*116$34.0Q00zzzU00Tzw001z0kn03w1E0UDk000Uz00003w0000Dk800Qz0+01nw5NUFjkH12Jz0008bw04Etzlk027z9008Tww00HzmU01Tz5U0NzwC007zkM00zz0E3Dzw104Tzk40CTz0E0UPw3020Ds"
+findbase["mission"]["crew"]["nylar"] := "|<nylar>96@0.91$22.08000E002Y00J801PE0i002c00AU00Y002E00+U04e000o0E5K00KM02+W02e+0F8U0Ic002002+00U0040800100002"
+findbase["mission"]["crew"]["larry"] := "|<larry>*118$28.7ry2AS7g1zUCzzw0Fzz007zw00Dzk00zz003zw00Dzk00Tz0oAzw81DzkUUDzW2Gzy813zsO0Tzk4/zz00bzc00Tz005zz02bzs00TzU00zy003zs10DzUAMzy00zzs0Dzy"
+findbase["mission"]["crew"]["igner"] := "|<igner>7@0.94$28.1s0007k000TU001zU00Dz001zw00Dzs00zzk03zz00Tzy01zzw07kz00T1s00s3U03UC00y0s00w7U07sz00TzQ01zwk07zsE0Dzn00zzw03zzk0Dzz00zzw01nzk07Vy02"
+findbase["mission"]["crew"]["walt"] := "|<walt>18@0.90$40.003wU0000Ty00003zw0000Tzs0001zzk0007zz0000Dzy0000zzw00071zk000Q000001s300007UC0000S1s0001znk0007sT0000jzy0000zyM0001zwU0007zsk000Tzz0001w3w0003z00000DzU0000zw00003zU0000Dy00000Ts00U"
+findbase["mission"]["crew"]["mom"] := "|<mom>*121$29.zM00zak03wDU0DsC00Tk000zU000z0009y040Fy0Tsjz0E07yEFXzz832zzUM5zy00/zw007zw00Dzs0QzzkVzzzU1zzz03zzz07zzy0Dzzw0zzzs1zzU"
+findbase["mission"]["crew"][""] := 
+findbase["mission"]["crew"][""] := 
 
 findbase["mission"]["crew"]["bender"] := "|<bender>*105$28.TzzzwzzzznzzzzDzzzwzzzznzzzzDzzzwrzzznTzzzA7zzzUDzzk0Tzz00zzw03zzk0Dzz00zzw03zzk07zz00Tzxs7zzs01zz001zwEsTzm00zz003zw30jzm00zz003Ty4ETzn00Tz00Tzy"
 findbase["mission"]["crew"]["fry"] := "|<fry>6@0.94$23.1zz03sT03U006000A000M000k001U00PU82z0w0Tzy3zy83zw07zzUDDzUSDz0z3z1zUT3zs0DzU0SC00Q808"
@@ -527,9 +536,9 @@ findbase["mission"]["crew"]["zoidberg"] .= "|<zoidberg>7@0.85$22.1y00Tz0Xzy8DzxK
 findbase["mission"]["crew"]["hermes"] := "|<hermes>226@0.94$31.0000000000000000000000000000000020000Dk000Dw400Dz3U07zXk03zlw00zzz00Q1zk0C0T0000C00b0000nk1U0Ts1s0Ty1z07zzzs7zzks3zzz01zzzz0zyzzkTyTzsDzk7w7zzw03zzzU0zzzU0DzzU0E"
 findbase["mission"]["crew"]["scruffy"] := "|<scruffy>19@1.00$23.000kTzzUzzzVzzz3zwz7zsyDU00T000y001w0M1w0M3y1y7y0MDw00Tk01z003w007s00Tk00zU01z003y007w90Dzw03ks1"
 findbase["mission"]["crew"]["kif"] := "|<kif>11@0.96$26.07zs04Tzny1zkT0Ds7k1w0y0T07U3U1w0s0D0C03s3U0TUsE3yzA0Tzz3nzgoDzvM0zzy03zzU0zzs07zy00zzU07zs01yS00DU003n000zU8"
+findbase["mission"]["crew"]["zapp"] := "|<zapp>*115$29.a00zzk037zU04zxU0Fzu01WLw0307k022T007ry00Dzs00Dzk08DzU1Dzz6GFzy88zzwDUXzs017zk02TzU04zz03kzy001zw003zs607zk0jzzU01zz1U3zy0zzzw00Dzs00zzs"
 findbase["mission"]["crew"]["smitty"] := "|<smitty>8@0.96$26.0Tz00TzU0Dzk03zs00Ty001zk00Tw007z001zs00Ty3kTzlwTw00zw00Dy003z000zls7jwU03y9E4zU00c"
 findbase["mission"]["crew"]["url"] := "|<url>*113$29.M0zzwkQTztXiTzn86zzaE7zzAUDzyMUxzwlV3zv1Y3zw1k1zk007zzs1zz3zVjzzzzTzzzyzzzzxzzzzvzzzzrzzzzjzzzzTzzzyzszwBzkzsPzVzkrz3z1Dy001zw007zvzzzzw8XzzkF7zzUWDzz"
-findbase["mission"]["crew"][""] := 
 
 
 
@@ -555,6 +564,8 @@ findbase["game"]["taskready"] := "|<taskready>75@0.54$14.0000000An7ztAmRvU000000
 findbase["game"]["taskplus"] := "|<taskplus>68@0.90$12.001U1U1U1UTyTyU"
 
 
+findbase["game"]["pizza"] := "|<pizza>113@0.86$18.0001zsTzyTzyQ001zyDy6Ty2Dw07y03y207y03y01y01y03w03k01k00s008004002U"
+findbase["game"]["collectbot"] := "|<collectbot>*154$24.zzzzzszzzUDzz0Dnz0zSz1zzzVzyznzzzPwzzbUzzs0zzziTzyCTzwCTy6CTy26TyS6Tuq6zty6zwT3zzDjzzzzzzbzzzyzzzzbzzzDzU"
 findbase["game"]["pvpicon"] := "|<pvpicon>*109$22.zzzyTzzs2zzs0Tzk00zU01zU0Tz01zy03zw0Dzq0zzUzzz3zzwDzzkzzz3zzzTzzzzU"
 findbase["game"]["levelupicon"] := "|<levelupicon>*112$20.zzzzy3zz0TzU3zs0zy0DzU3zs0zy0Dzk7yS3z3UzWMDtG0zXU3kE0NW06xU7zzzs"
 findbase["game"]["settingsicon"] := "|<settingsicon>*129$16.zzzwzzUDs0T1VwTVly7DwMTnVyD3ky03s0zk7zwzzzy"

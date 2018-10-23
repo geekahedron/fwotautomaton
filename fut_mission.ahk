@@ -161,7 +161,7 @@ ClickMission(num)
 			y := mg["y"]
 			Debug("Found pattern " . mgroup . ":" . x . "," . y)
 			ClickCoords([x,y])
-			Screenshot(, , , , , "missionselect", "-g" . mgroup)
+			; Screenshot(, , , , , "missionselect", "-g" . mgroup)
 		}
 		
 		; Debug("Looking for mission " . msel . ", scrolling " . scrollcount . " times")
@@ -184,10 +184,10 @@ ClickMission(num)
 			Debug("Found pattern " . msel . ":" . x . "," . y)
 			ClickCoords([x,y])
 			Sleep 200
-			Screenshot(, , , , , "missionselect", "-s" . msel)
+			; Screenshot(, , , , , "missionselect", "-s" . msel)
 		} else {
 			Debug("Selection not found")
-			Screenshot(, , , , , "missionselect", "nf-s" . msel)
+			; Screenshot(, , , , , "missionselect", "nf-s" . msel)
 			; ReloadLoop()
 			; MsgBox %msel% not found
 		}
@@ -711,15 +711,20 @@ WaitMissionStatus(s, x:=700, y:=400)
 				c := 0
 				rt++
 			}
-			else
+			else if (st == 10)
+			{
+				continue
+			}
+			else 
 			{
 				WriteLog(s . " Timed out (" . c . "), starting reload loop")
 				Debug(s . " Timed out (" . c . "), starting reload loop")
-				ScreenShot()
+				Screenshot(, , , , , "missionstatus", "-w" . s)
 				ReloadLoop()
 			}
 		}
 	}
+	return st
 }
 
 SelectCharacter(char)
@@ -978,7 +983,9 @@ RunMission(singleloop:=false)
 				StatusText(MissionToRun . "[W] Loading map")
 
 				Debug("WaitMissionStatus(6): node " . node)
-				WaitMissionStatus(6)
+				st := WaitMissionStatus(6)
+				if (st == 10)
+					continue
 
 				if (node == 1)
 				{

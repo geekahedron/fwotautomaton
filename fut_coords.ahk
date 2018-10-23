@@ -6,13 +6,16 @@ coords["app_game2"] := [405, 180]
 coords["app_game3"] := [560, 180]
 coords["app_adclose"] := [794, 75]
 coords["app_myapps"] := [85, 75]
-coords["app_gameclose"] := [346, 14]
+coords["app_gameclose"] := [320, 14]
 
 coords["game_loginbutton"] := [485, 328]
 coords["game_loading"] := [635, 194]
 coords["game_button"] := [635, 194]
-coords["game_dailyreward"] := [400, 400]
+coords["game_dailyreward"] := [450, 400]
+coords["collectbot_button"] := [36, 175]
 
+coords["pizza_area"] := [[61,47],[94,77]]
+coords["collectbot_area"] := [[12,158],[54,198]]
 coords["city_area"] := [[70, 75],[800, 400]]
 
 coords["gamestart_pub"] := [222, 147]
